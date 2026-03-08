@@ -1,3 +1,5 @@
+from voitures_affectées import voiture_poss
+
 class Employe:
     en_affichage = False
 
@@ -26,8 +28,13 @@ class Employe:
 
     def affectervoiture(self, voiture):
         if self.voitureservice is None:
-            self.voitureservice = voiture
-            voiture.chauffeur = self
+            if voiture_poss.count(voiture) < 1:
+                voiture_poss.append(voiture)
+                self.voitureservice = voiture
+                voiture.chauffeur = self
+            else:
+                print(f"Cette voiture a déja été attribuer à {voiture.chauffeur.nom} {voiture.chauffeur.prenom}")
+
         else:
             print(f"L'employé possède déja une voiture")
 

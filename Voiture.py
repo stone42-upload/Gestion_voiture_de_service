@@ -1,6 +1,5 @@
 import Employe
 
-
 class Voiture:
     en_affichage = False
 

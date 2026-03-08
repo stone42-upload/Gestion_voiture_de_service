@@ -9,6 +9,8 @@ Voiture1 = Voiture("ABCJ 123", 2020,"volswagen", 45000)
 Voiture2= Voiture("123 ABC", 2018, "Honda", 78000)
 Voiture3 = Voiture("KLM-9087", 2023, "Ford", 15000)
 
+
+
 Employe1.afficherinformation()
 Employe2.afficherinformation()
 Employe3.afficherinformation()
@@ -19,6 +21,9 @@ Voiture3.afficherinformation()
 
 Employe1.affectervoiture(Voiture1)
 Employe1.afficherinformation()
+
+Employe2.affectervoiture(Voiture1)
+Employe2.afficherinformation()
 
 Employe2.affectervoiture(Voiture2)
 Employe2.afficherinformation()
