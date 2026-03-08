@@ -16,3 +16,9 @@ Employe3.afficherinformation()
 Voiture1.afficherinformation()
 Voiture2.afficherinformation()
 Voiture3.afficherinformation()
+
+Employe1.affectervoiture(Voiture1)
+Employe1.afficherinformation()
+
+Employe2.affectervoiture(Voiture2)
+Employe2.afficherinformation()
