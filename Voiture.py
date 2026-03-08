@@ -5,3 +5,13 @@ class Voiture:
         self.marque = marque
         self.kilometrage = kilometrage
         self.chauffeur = chauffeur
+
+    def afficherinformation(self):
+        print(f"matricule: {self.matricule}, annee: {self.annee}, marque: {self.marque}, kilometrage: {self.kilometrage}")
+
+        if(self.chauffeur is None):
+            print("Cette voiture n'a pas encore été attribuer")
+
+        else:
+            print("chauffeur")
+            self.chauffeur.afficherinformation()
