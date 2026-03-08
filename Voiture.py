@@ -11,7 +11,9 @@ class Voiture:
 
         if(self.chauffeur is None):
             print("Cette voiture n'a pas encore été attribuer")
+            print("")
 
         else:
             print("chauffeur")
             self.chauffeur.afficherinformation()
+            print("")

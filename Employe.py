@@ -11,10 +11,12 @@ class Employe:
 
         if self.voitureservice is None:
             print("Cet employé n'a aucune Voiture de service")
+            print("")
 
         else:
             print("Voiture de service :")
             self.voitureservice.afficherinformation()
+            print("")
 
     def affectervoiture(self, voiture):
         if self.voitureservice is None:
