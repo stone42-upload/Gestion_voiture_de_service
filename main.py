@@ -22,18 +22,11 @@ Voiture3.afficherinformation()
 Employe1.affectervoiture(Voiture1)
 Employe1.afficherinformation()
 
-Employe2.affectervoiture(Voiture1)
-Employe2.afficherinformation()
-
 Employe2.affectervoiture(Voiture2)
 Employe2.afficherinformation()
 
-Employe3.affectervoiture(Voiture3)
-Employe3.afficherinformation()
-
-Employe3.retirervoiture()
-Employe3.afficherinformation()
-
 Employe1.retirervoiture()
 Employe1.afficherinformation()
+
+Employe3.affectervoiture(Voiture2)
 
