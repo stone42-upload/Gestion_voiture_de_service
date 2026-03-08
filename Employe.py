@@ -43,4 +43,7 @@ class Employe:
         if self.voitureservice is None:
             print(" Cet employé ne possède pas de voiture de service")
         else:
+            voiture = self.voitureservice
+            voiture_poss.remove(voiture)
+            voiture.chauffeur = None
             self.voitureservice = None
