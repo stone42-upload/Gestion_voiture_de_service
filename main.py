@@ -29,4 +29,4 @@ Employe1.retirervoiture()
 Employe1.afficherinformation()
 
 Employe3.affectervoiture(Voiture2)
-
+Employe3.afficherinformation()
